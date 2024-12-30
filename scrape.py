@@ -2,9 +2,7 @@ import time
 from typing import List, Optional
 
 import click
-
 import api
-
 
 @click.group()
 def cli():
