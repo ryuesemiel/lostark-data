@@ -1,9 +1,5 @@
 import json
 import os
-
-# 환경 변수 설정
-os.environ["LOGS_ENDPOINT"] = "https://logs.snow.xyz/api/v1/logs"
-os.environ["IDS_ENDPOINT"] = "https://logs.snow.xyz/api/v1/ids"
 import time
 from typing import List, Literal, Optional, Tuple, Union
 import warnings
